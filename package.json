@@ -1,0 +1,19 @@
+{
+  "name": "05-udemy",
+  "version": "1.0.0",
+  "description": "Clon UDEMY SASS Gulp Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naibaf93/Udemyclon.git"
+  },
+  "author": "Fabian Huertas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naibaf93/Udemyclon/issues"
+  },
+  "homepage": "https://github.com/Naibaf93/Udemyclon#readme"
+}
