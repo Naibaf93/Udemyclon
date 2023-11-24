@@ -1,4 +1,27 @@
+// Reescribir colores
 
+$negro: #000;
+$blanco: #FFF;
+$morado: #A435F0;
+$gris: #F8F9FB;
+$grisOscuro: #6A6F73;
+$naranja: #B4690E;
+
+// Tipografia
+
+$fuente-headings: 'Kaisei HarunoUmi', serif;
+$fuente-textos: Arial, Helvetica, sans-serif;
+$headings-font-family: $fuente-headings;
+$headings-font-weight: 700;
+$h2-font-size: 3rem;
+$h3-font-size: 2.6rem;
+
+// Colores
+
+$secondary: $naranja;
+$success: $morado;
+$light: $gris;
+$dark: $negro;
 
 
 
