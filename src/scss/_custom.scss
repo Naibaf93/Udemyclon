@@ -23,7 +23,9 @@ $success: $morado;
 $light: $gris;
 $dark: $negro;
 
+// formularios
 
+$input-border-color: $dark;
 
 // Importar Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';

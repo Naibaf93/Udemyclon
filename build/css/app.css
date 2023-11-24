@@ -2117,7 +2117,7 @@ progress {
   appearance: none;
   background-color: var(--bs-body-bg);
   background-clip: padding-box;
-  border: var(--bs-border-width) solid var(--bs-border-color);
+  border: var(--bs-border-width) solid #000;
   border-radius: var(--bs-border-radius);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2270,7 +2270,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 16px 12px;
-  border: var(--bs-border-width) solid var(--bs-border-color);
+  border: var(--bs-border-width) solid #000;
   border-radius: var(--bs-border-radius);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2656,7 +2656,7 @@ textarea.form-control-lg {
   text-align: center;
   white-space: nowrap;
   background-color: var(--bs-tertiary-bg);
-  border: var(--bs-border-width) solid var(--bs-border-color);
+  border: var(--bs-border-width) solid #000;
   border-radius: var(--bs-border-radius);
 }
 
@@ -11855,4 +11855,12 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+@media (min-width: 992px) {
+  .descuentos .texto-descuentos {
+    margin-bottom: -2rem;
+  }
+}
+.descuentos .buscar {
+  border-radius: 0;
 }
