@@ -1,0 +1,7 @@
+@use '../custom' as *;
+
+.nav {
+    .active {
+        color: $dark;
+    }
+}

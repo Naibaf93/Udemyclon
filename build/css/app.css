@@ -11871,3 +11871,7 @@ textarea.form-control-lg {
 .descuentos .buscar {
   border-radius: 0;
 }
+
+.nav .active {
+  color: #000;
+}
