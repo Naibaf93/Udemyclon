@@ -25,5 +25,28 @@
             @include make-col(1, 5);
         }
 
+        .titulo {
+            font-family: $fuente-textos;
+            font-size: 1rem;
+        }
+
+        .instructor,
+        .total {
+            font-size: .8rem;
+            margin: 0;
+        }
+
+     .calificacion {
+            width: 6rem;
+        }
+
+        .precio {
+            font-size: .9rem;
+
+            span {
+                font-size: .7;
+                text-decoration: line-through;
+            }
+        }
     }
 }

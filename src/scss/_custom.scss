@@ -36,11 +36,16 @@ $nav-link-hover-color: $morado;
 $nav-link-font-weight: 700;
 $nav-link-font-size: .9rem;
 
-// botones
+// Botones
 
 $btn-border-radius: 0;
 $btn-font-weight: 700;
 
+// Cards
+
+$card-spacer-x: 0;
+$card-border-radius: 0;
+$card-border-width: 0;     
 
 // Importar Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
