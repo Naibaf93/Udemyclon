@@ -45,7 +45,11 @@ $btn-font-weight: 700;
 
 $card-spacer-x: 0;
 $card-border-radius: 0;
-$card-border-width: 0;     
+$card-border-width: 0;
+
+// Habilitar CSS Grid
+
+$enable-cssgrid: true;
 
 // Importar Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
